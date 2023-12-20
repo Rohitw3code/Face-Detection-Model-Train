@@ -3,8 +3,8 @@ import time
 import uuid
 import cv2
 
-IMAGES_PATH = os.path.join("data", "images")
-number_images = 30
+IMAGES_PATH = os.path.join("new_data", "images")
+number_images = 60
 
 # Create the directory if it doesn't exist
 os.makedirs(IMAGES_PATH, exist_ok=True)
